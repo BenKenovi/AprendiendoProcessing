@@ -24,6 +24,7 @@ void setup() {
 
 //LOOP
 void draw() {
+	//lights();
 	background(#202020);
 	//Fila 1
 	//Ejemplo 1

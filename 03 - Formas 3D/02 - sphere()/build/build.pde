@@ -2,7 +2,8 @@
 
 Aprendiendo Processing - sphere()
 
-
+- Dibuja varias esferas
+- Número de facetas determinado por pòsición del mouse
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -26,8 +27,9 @@ void setup() {
 
 //LOOP
 void draw() {
-	lights();
+	//lights();
 	background(#202020);
+	sphereDetail(mouseX / 10, mouseY / 10);
 	//Fila 1
 	//Ejemplo 1
 	//Cubo que se desplaza
