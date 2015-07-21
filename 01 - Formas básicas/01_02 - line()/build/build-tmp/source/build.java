@@ -18,6 +18,8 @@ public class build extends PApplet {
 
 Formas b\u00e1sicas en Processing / line()
 
+ibuja cuatro l\u00edneas o grupos de l\u00edneas
+
 Jos\u00e9 Vicente Ara\u00fajo
 http://dunadigital.com 
 svcnt@dunadigital.com
@@ -34,16 +36,18 @@ public void setup() {
 
 public void draw() {
 	background(0xff202020);
-	//L\u00ednea 1
+	//Ejemplo 1
 	stroke(255);
 	line(width*0.2f-20, height*0.5f-20, width*0.2f+20, height*0.5f+20);
-	//L\u00ednea 2
+	//Ejemplo 2
 	line(width*0.4f-20, height*0.5f-20, width*0.4f+20, height*0.5f+20);
 	line(width*0.4f+20, height*0.5f-20, width*0.4f-20, height*0.5f+20);
-	//L\u00ednea 3
+	//Ejemplo 3
+	strokeWeight(4);
 	line(width*0.6f-20, height*0.5f, width*0.6f+20, height*0.5f);
 	line(width*0.6f, height*0.5f-20, width*0.6f, height*0.5f+20);
-	//L\u00ednea 4
+	//Ejemplo 4
+	strokeWeight(1);
 	line(
 		width*0.8f+25*sin(frameCount*0.05f), 
 		height*0.5f+25*cos(frameCount*0.05f), 
