@@ -2,6 +2,9 @@
 
 Formas básicas en Processing / curve()
 
+- Dibuja una curva tipo curve() (blanco) y sus vectores de control (gris)
+- Dibuja también un punto de la cuerva
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com
@@ -25,10 +28,10 @@ void draw() {
 	p4x = width-100;
 	p4y = height/2;
 	//Control
-	p2x = 100+cos(frameCount*0.05)*100;
-	p2y = height/2+sin(frameCount*0.05)*100;
-	p3x = width-100+cos(frameCount*0.04)*100;
-	p3y = height/2+sin(frameCount*0.04)*100;
+	p2x = 100+cos(frameCount*0.05)*50;
+	p2y = height/2+sin(frameCount*0.05)*50;
+	p3x = width-100+cos(frameCount*0.04)*50;
+	p3y = height/2+sin(frameCount*0.04)*50;
 	background(#202020); //color del fondo (HEX)
 	stroke(100);
 	line(p1x, p1y, p2x, p2y);

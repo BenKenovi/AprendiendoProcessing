@@ -2,6 +2,9 @@
 
 Formas básicas en Processing / bezierPoint()
 
+- Calcula la posición de un punto en una curva de Bezier
+- El último parámetro define la proporción (0 - 1) 
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

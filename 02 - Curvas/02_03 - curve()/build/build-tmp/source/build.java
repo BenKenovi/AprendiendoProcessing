@@ -18,6 +18,9 @@ public class build extends PApplet {
 
 Formas b\u00e1sicas en Processing / curve()
 
+- Dibuja una curva tipo curve() (blanco) y sus vectores de control (gris)
+- Dibuja tambi\u00e9n un punto de la cuerva
+
 Jos\u00e9 Vicente Ara\u00fajo
 http://dunadigital.com 
 svcnt@dunadigital.com
@@ -41,10 +44,10 @@ public void draw() {
 	p4x = width-100;
 	p4y = height/2;
 	//Control
-	p2x = 100+cos(frameCount*0.05f)*100;
-	p2y = height/2+sin(frameCount*0.05f)*100;
-	p3x = width-100+cos(frameCount*0.04f)*100;
-	p3y = height/2+sin(frameCount*0.04f)*100;
+	p2x = 100+cos(frameCount*0.05f)*50;
+	p2y = height/2+sin(frameCount*0.05f)*50;
+	p3x = width-100+cos(frameCount*0.04f)*50;
+	p3y = height/2+sin(frameCount*0.04f)*50;
 	background(0xff202020); //color del fondo (HEX)
 	stroke(100);
 	line(p1x, p1y, p2x, p2y);

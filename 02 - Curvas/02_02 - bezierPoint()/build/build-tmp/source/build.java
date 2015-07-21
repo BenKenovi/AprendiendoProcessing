@@ -18,6 +18,9 @@ public class build extends PApplet {
 
 Formas b\u00e1sicas en Processing / bezierPoint()
 
+- Calcula la posici\u00f3n de un punto en una curva de Bezier
+- El \u00faltimo par\u00e1metro define la proporci\u00f3n (0 - 1) 
+
 Jos\u00e9 Vicente Ara\u00fajo
 http://dunadigital.com 
 svcnt@dunadigital.com
