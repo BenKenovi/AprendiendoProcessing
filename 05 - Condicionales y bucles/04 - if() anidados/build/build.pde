@@ -40,12 +40,17 @@ void draw() {
 
 	
 
-	if (distancia < 225) {
+	if (distancia < 200) {
 		stroke(255-distancia, 50);
 		line(ellipse1x, ellipse1y, ellipse2x, ellipse2y);
-		if (distancia < 50) {
+		if (distancia < 100) {
 			ellipse(ellipse1x, ellipse1y, 5, 5);
 			ellipse(ellipse2x, ellipse2y, 5, 5);
+			if (distancia < 25) {
+				ellipse(ellipse1x, ellipse1y, 15, 15);
+				ellipse(ellipse2x, ellipse2y, 15, 15);
+
+			} 
 		}
 
 	} else {

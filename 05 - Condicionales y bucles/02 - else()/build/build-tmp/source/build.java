@@ -41,7 +41,7 @@ public void setup() {
 //LOOP
 public void draw() {
 	fill(0xff202020, 10);
-	rect(0, 0, width, height);
+	rect(-5, -5, width+10, height+10);
 
 	ellipse1x = width/2 + sin(frameCount*0.06f)*sin(frameCount*0.009f)*250;
 	ellipse1y = height/2 + cos(frameCount*0.06f)*sin(frameCount*0.009f)*250;

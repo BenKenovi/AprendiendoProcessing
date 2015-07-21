@@ -25,7 +25,7 @@ void setup() {
 //LOOP
 void draw() {
 	fill(#202020, 10);
-	rect(0, 0, width, height);
+	rect(-5, -5, width+10, height+10);
 
 	ellipse1x = width/2 + sin(frameCount*0.06)*sin(frameCount*0.009)*250;
 	ellipse1y = height/2 + cos(frameCount*0.06)*sin(frameCount*0.009)*250;
