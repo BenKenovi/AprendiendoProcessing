@@ -2,9 +2,6 @@
 
 Formas básicas en Processing / quad()
 
-- Dibujar un triángulo equilátero 
-definiendo la posición de sus vértices a partir del centro
-
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

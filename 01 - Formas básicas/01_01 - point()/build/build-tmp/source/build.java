@@ -16,9 +16,7 @@ public class build extends PApplet {
 
 /* 
 
-Formas b\u00e1sicas en Processing / point()
-
-- Dibuja varios grupos de puntos
+Formas b\u00e1sicas en Processing
 
 Jos\u00e9 Vicente Ara\u00fajo
 http://dunadigital.com 
@@ -36,13 +34,11 @@ public void setup() {
 
 public void draw() {
 	background(0xff202020); //color del fondo (HEX)
-	//Ejemplo 1
-	//Punto blanco opaco
+	//Punto 1
 	stroke(255); //color de la l\u00ednea (int >=0 <=255)
 	strokeWeight(5); //grosor de la l\u00ednea (p\u00edxeles)
 	point(width*0.2f, height/2); //punto (coordenada x, coordenada y)
 	//Punto 2
-	//Varios puntos transparentes de diferente grosor
 	stroke(255,25); //color de la l\u00ednea (int >=0 <=255, transparencia)
 	strokeWeight(25);
 	point(width*0.4f, height/2);
@@ -53,7 +49,6 @@ public void draw() {
 	strokeWeight(10);
 	point(width*0.4f, height/2);
 	//Punto 3
-	//Puntos transparentes de diferentes colores
 	strokeWeight(60);
 	stroke(0xffff0000,50);
 	point(width*0.6f-20, height/2-10);
@@ -62,10 +57,6 @@ public void draw() {
 	stroke(0xff0000ff,50);
 	point(width*0.6f, height/2+20);
 	//Punto 4
-	//Un punto gira alrededor de otro
-	//La posici\u00f3n del punto en movimiento se calcula 
-	//mediante el seno (sin()) y coseno (cos()) 
-	//de un \u00e1ngulo variable (frameCount)
 	stroke(255);
 	strokeWeight(50);
 	point(width*0.8f, height/2);

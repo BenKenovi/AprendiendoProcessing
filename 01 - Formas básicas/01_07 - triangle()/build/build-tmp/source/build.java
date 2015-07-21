@@ -18,9 +18,6 @@ public class build extends PApplet {
 
 Formas b\u00e1sicas en Processing / quad()
 
-- Dibujar un tri\u00e1ngulo equil\u00e1tero 
-definiendo la posici\u00f3n de sus v\u00e9rtices a partir del centro
-
 Jos\u00e9 Vicente Ara\u00fajo
 http://dunadigital.com 
 svcnt@dunadigital.com

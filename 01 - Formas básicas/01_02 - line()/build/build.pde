@@ -2,8 +2,6 @@
 
 Formas básicas en Processing / line()
 
-ibuja cuatro líneas o grupos de líneas
-
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com
@@ -20,18 +18,16 @@ void setup() {
 
 void draw() {
 	background(#202020);
-	//Ejemplo 1
+	//Línea 1
 	stroke(255);
 	line(width*0.2-20, height*0.5-20, width*0.2+20, height*0.5+20);
-	//Ejemplo 2
+	//Línea 2
 	line(width*0.4-20, height*0.5-20, width*0.4+20, height*0.5+20);
 	line(width*0.4+20, height*0.5-20, width*0.4-20, height*0.5+20);
-	//Ejemplo 3
-	strokeWeight(4);
+	//Línea 3
 	line(width*0.6-20, height*0.5, width*0.6+20, height*0.5);
 	line(width*0.6, height*0.5-20, width*0.6, height*0.5+20);
-	//Ejemplo 4
-	strokeWeight(1);
+	//Línea 4
 	line(
 		width*0.8+25*sin(frameCount*0.05), 
 		height*0.5+25*cos(frameCount*0.05), 

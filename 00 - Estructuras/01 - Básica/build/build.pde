@@ -14,7 +14,7 @@ Processing 2.2.1
 //VARIABLES GLOBALES
 
 //SETUP
-void setup() {
+void void setup() {
 	
 }
 
