@@ -5,3 +5,4 @@ sketch.properties
 applet
 build-tmp/
 web-export/
+*.dmp
