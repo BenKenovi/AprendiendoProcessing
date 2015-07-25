@@ -1,6 +1,6 @@
 /* 
 
-Título del sketch
+Aprendiendo Processing - 
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -15,6 +15,10 @@ Processing 2.2.1
 
 //SETUP
 void setup() {
+	size(512, 512);
+	background(#202020);
+	stroke(255);
+	noFill();
 	
 }
 
