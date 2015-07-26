@@ -2,6 +2,8 @@
 
 Aprendiendo Processing - Arrays
 
+- Un array es una secuencia de valores para un tipo de variable
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com
@@ -15,6 +17,10 @@ Processing 2.2.1
 int num = 10;
 int radio;
 PShape poli;
+//array de números enteros de nombre 'num_lados'
+//almacena los valores 3, 6 y 9, en ese orden
+//se accede a los valores indicando el número de orden, comenzando por 0
+//ej: num_lados[0] devuelve '3'
 int[] num_lados = {3, 6, 12};
 
 //SETUP
@@ -45,6 +51,8 @@ void draw() {
 	
 }
 
+//dibuja un polígono regular 
+//param: número de lados, coordenadas del centro
 void poli(int lados, float x, float y){
 
 	poli = createShape();

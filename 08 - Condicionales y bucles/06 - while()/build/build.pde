@@ -2,7 +2,7 @@
 
 Aprendiendo Processing - while()
 
--
+- Aumentar progresivamente el valor del giro y el tamaño del rectángulo
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -28,8 +28,8 @@ void setup() {
 	while (i < 400) {
 		pushMatrix();
 		translate(width*0.5, height*0.5);
-		rotate(TWO_PI/i);
-		rect(0, 0, i, i);
+		rotate(i);
+		rect(0, 0, i, i, 25,5,25,5);
 		popMatrix();
 		i+=25;
 	}

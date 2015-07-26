@@ -1,6 +1,6 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - PImage
 
 José Vicente Araújo
 http://dunadigital.com 

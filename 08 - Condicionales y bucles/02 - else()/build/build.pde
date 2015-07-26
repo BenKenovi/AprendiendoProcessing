@@ -2,6 +2,11 @@
 
 Aprendiendo Processing / Condicionales - if()
 
+- Si la distancia entre dos puntos móviles es menor que una cifra
+- Cambia el color de línea
+- Dibuja una línea entre ambos
+- De lo contrario, vuelve el color a como estaba
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

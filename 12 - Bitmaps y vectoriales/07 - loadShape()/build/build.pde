@@ -1,6 +1,8 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - loadShape()
+
+- Carga una imagen vectorial en formato SVG
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -10,19 +12,23 @@ Processing 2.2.1
 
 */
 
+//crea objetos PShape para la imagen y para cada una de sus capas
 PShape vec, capa1, capa2, capa3, capa4;
+//paleta de colores
 color[] paleta = { #C74029, #FAE8CD, #128085, #385052, #F0AD44};
 
 
 void setup() {
   size(400, 400);
   background(#202020);
+  //carga el archivo vectorial
   vec = loadShape("../../../data/vec.svg");
-
+  //'count' = número de capas en 'vec'
   int count = vec.getChildCount();
   println(count);
-
+  //carga cada capa de 'vec' en un objeto PShape distinto
   capa1 = vec.getChild(0);
+  //y elimina su información de estilo (trazo, relleno...)
   capa1.disableStyle();
 
   capa2 = vec.getChild(1);
@@ -37,8 +43,9 @@ void setup() {
   noStroke();
   stroke(#202020);
 
-  //shape(vec, 0, 0, width, height);
+  //toma un color de la paleta
   fill(paleta[int(random (paleta.length))]);
+  //dibuja una capa del archivo vectorial
   shape(capa1, 0, 0);
 
   fill(paleta[int(random (paleta.length))]);

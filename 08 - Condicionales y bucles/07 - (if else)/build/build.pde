@@ -2,7 +2,7 @@
 
 Aprendiendo Processing - ?:
 
--
+- Modificar el color de la línea si es par 
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -29,8 +29,10 @@ void draw() {
 
 	for (int i = 0; i < 40; ++i) {
 		b = i % 2;
-		println(i%4);
-		a = (b == 1 )? 125 : 255;
+		//evalúa la condición
+		//si se cumple, asigna el valor 125 a la variable
+		//si no se cumple, le asigna valor 255
+		a = (b == 1)? 125 : 255;
 		fill(a);
 		rect(i*10, 0, 1, height);
 	}

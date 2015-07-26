@@ -1,6 +1,8 @@
 /* 
 
-Título del sketch
+Aprendiendo Processing - pushMatrix() y popMatrix();
+
+- 6 cuadrados que giran
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -51,6 +53,8 @@ void draw() {
 	popMatrix();
 
 	//Segunda fila
+	//Consigue el mismo resultado que en la primera fila empleando un bucle
+	//Ver carpeta 08 - Condicionales y bucles
 	for (int i = 1; i < 4; ++i) {
 		pushMatrix();
 		translate(width*(0.25*i), height*0.66);

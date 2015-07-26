@@ -2,7 +2,11 @@
 
 Formas básicas en Processing / line()
 
-ibuja cuatro líneas o grupos de líneas
+-Dibuja cuatro líneas o grupos de líneas
+
+-line (x1, y1, x2, y2)
+
+-Coordenadas de los extremos definidas a partir de un punto central
 
 José Vicente Araújo
 http://dunadigital.com 

@@ -2,6 +2,10 @@
 
 Aprendiendo Processing - función sin parámetros
 
+- La función dibuja una flor
+- Se invoca dos veces y se las sitúa mediante translate()
+- La segunda es simétrica a la primera, empleando scale()
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

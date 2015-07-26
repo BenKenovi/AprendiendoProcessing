@@ -32,13 +32,13 @@ void draw() {
 	sphereDetail(mouseX / 10, mouseY / 10);
 	//Fila 1
 	//Ejemplo 1
-	//Cubo que se desplaza
+	//Esfera que se desplaza
 	pushMatrix();
 	translate(map(sin(frameCount*0.05), -1, 1, width*0.25,  width*0.75), height*0.25, 0);
 	sphere(50);
 	popMatrix();
 	//Fila 2
-	//Paralelepípedos que giran en torno a sus ejes X, Y, Z
+	//Esferas que giran en torno a sus ejes X, Y, Z
 	//Ejemplo 2
 	pushMatrix();
 	fill(#00FFFF);
@@ -64,7 +64,7 @@ void draw() {
 	sphere(50);
 	popMatrix();
 	//Flia 3
-	//Cubo que gira alrededor de sus tres ejes y se desplaza en una elipse en los ejes X-Z
+	//Esfera que gira alrededor de sus tres ejes y se desplaza en una elipse en los ejes X-Z
 	//Ejemplo 5
 	fill(#202020);
 	stroke(255);

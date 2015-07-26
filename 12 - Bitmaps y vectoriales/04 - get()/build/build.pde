@@ -1,6 +1,6 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - get()
 
 José Vicente Araújo
 http://dunadigital.com 

@@ -1,6 +1,8 @@
 /* 
 
-Título del sketch
+Aprendiendo Processing - scale();
+
+- Dos grupos de cuadrados transformados con scale()
 
 José Vicente Araújo
 http://dunadigital.com 

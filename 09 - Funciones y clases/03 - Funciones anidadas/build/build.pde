@@ -2,6 +2,8 @@
 
 Aprendiendo Processing - funciones anidadas
 
+- Se invoca la función flor(), que a su vez invoca colorear()
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

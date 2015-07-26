@@ -1,6 +1,8 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - pixels[]
+
+- Clic para cambiar el patrón
 
 José Vicente Araújo
 http://dunadigital.com 

@@ -2,6 +2,8 @@
 
 Aprendiendo Processing - función con parámetros
 
+- Como 01, pero la posición y la simetría se les asigna como parámetros de la función flor()
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

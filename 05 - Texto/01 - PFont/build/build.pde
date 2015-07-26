@@ -1,6 +1,8 @@
 /* 
 
-Título del sketch
+Aprendiendo Processing - PFont
+
+- Texto
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -20,11 +22,18 @@ void setup() {
 	noStroke();
 	fill(255);
 	smooth();
+
+	//crea obj PFont
 	PFont miFuente;
+	//archivo fuente .vlw en carpera 'data'
 	miFuente = loadFont("ACaslonPro-SemiboldItalic-48.vlw");
+	//definir fuente y tamaño
 	textFont(miFuente, 48);
+	//texto
 	text("Processing", width/2, height*0.25);
+	//alineación
 	textAlign(CENTER, BOTTOM); // CENTER, LEFT, RIGHT, BOTTOM, CENTER, TOP
+	//texto 2
 	text("Processing", width/2, height*0.5);
 	
 }

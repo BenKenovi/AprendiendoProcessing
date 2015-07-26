@@ -1,6 +1,6 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - pixels[]
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -37,4 +37,5 @@ void draw() {
     updatePixels();
   }
   
+  noLoop();
 }

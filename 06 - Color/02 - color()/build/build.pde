@@ -1,6 +1,8 @@
 /* 
 
-Color en Processing 
+Aprendiendo Processing - color()
+
+- Tres circ. transparentes de colores básicos RGB 
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -24,6 +26,7 @@ void setup() {
 	int diam = 200;
 	int radio = 50;
 
+	//modo de color y rango de valores
 	colorMode(HSB, 100);
 
 	stroke(#202020);

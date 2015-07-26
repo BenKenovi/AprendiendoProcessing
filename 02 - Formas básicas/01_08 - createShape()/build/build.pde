@@ -12,6 +12,7 @@ Processing 2.2.1
 
 */
 //VARIABLES
+//Crear objetos PShape
 PShape pent, hex;
 
 
@@ -26,8 +27,12 @@ void setup() {
 	int radio = 100;
 	int radio2 = 150;
 
+	//Definir objeto PShape
 	pent = createShape();
 	pent.beginShape();
+	//TWO_PI/5 para pentágono
+	//TWO_PI/6 para hexágono
+	//etc
 	pent.vertex(-sin(TWO_PI/5)*radio , -cos(TWO_PI/5)*radio);
 	pent.vertex(-sin(TWO_PI/5*2)*radio , -cos(TWO_PI/5*2)*radio);
 	pent.vertex(-sin(TWO_PI/5*3)*radio , -cos(TWO_PI/5*3)*radio);
@@ -35,6 +40,7 @@ void setup() {
 	pent.vertex(-sin(TWO_PI/5*5)*radio , -cos(TWO_PI/5*5)*radio);
 	pent.endShape(CLOSE);
 
+	//Definir segundo objeto
 	hex = createShape();
 	hex.beginShape();
 	hex.vertex(-sin(TWO_PI/6)*radio2 , -cos(TWO_PI/6)*radio2);
@@ -45,6 +51,8 @@ void setup() {
 	hex.vertex(-sin(TWO_PI/6*6)*radio2 , -cos(TWO_PI/6*6)*radio2);
 	hex.endShape(CLOSE);
 
+	//Invocar objetos 
+	//Param: (objeto PShape, coordenadas)
 	shape (pent, x, y);
 	shape (hex, x, y);
 

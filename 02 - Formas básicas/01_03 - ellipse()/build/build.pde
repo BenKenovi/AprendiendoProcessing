@@ -2,7 +2,7 @@
 
 Formas básicas en Processing / ellipse()
 
-Dibuja varias circunferencias o grupos de circunferencias
+-Dibuja varias circunferencias o grupos de circunferencias
 
 José Vicente Araújo
 http://dunadigital.com 

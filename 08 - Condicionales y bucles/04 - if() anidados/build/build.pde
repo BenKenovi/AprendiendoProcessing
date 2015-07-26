@@ -2,6 +2,9 @@
 
 Aprendiendo Processing / Condicionales - if() anidados
 
+- Si defines un condicional dentro de otro, 
+el segundo no se evalúa si la condición inicial no se cumple 
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

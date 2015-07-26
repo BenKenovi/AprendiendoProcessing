@@ -2,6 +2,8 @@
 
 Aprendiendo Processing / Condicionales - if()
 
+- Si la distancia entre dos puntos móviles es menor que una cantidad, dibuja una línea entre ellos.
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com
@@ -12,6 +14,7 @@ Processing 2.2.1
 
 
 //VARIABLES GLOBALES
+//coordenadas de los puntos
 float ellipse1x, ellipse1y, ellipse2x, ellipse2y;
 
 //SETUP

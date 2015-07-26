@@ -14,8 +14,9 @@ Processing 2.2.1
 */
 
 //LIBRERÍAS
+//importar librería
 import peasy.*;
-
+//crear objeto cámara 
 PeasyCam cam;
 
 
@@ -29,7 +30,9 @@ void setup() {
 	
 	smooth();
 
+	//Param: (this, ángulo lente)
 	cam = new PeasyCam(this,100);
+	//distancias mínima y máxima con scroll
 	cam.setMinimumDistance(100);
 	cam.setMaximumDistance(250);
 }

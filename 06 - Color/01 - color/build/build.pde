@@ -1,6 +1,6 @@
 /* 
 
-Color en Processing 
+Aprendiendo Processing - color 
 
 background() //color de fondo (int, hex, color)
 colorMode() //modo (RGB (defecto), HSB)
@@ -9,7 +9,8 @@ noFill() //sin relleno
 noStroke() //sin línea
 stroke() //color de línea (color, alfa)
 
-- Dibujar un pentágono regular
+- Dibujar un pentágono regular y un hexágono
+- Colores aleatorios
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -25,18 +26,22 @@ PShape pent, hex;
 void setup() {
 	size(400, 400, P2D); //tamaño de la ventana. (ancho, alto)
 	background(#202020);
+	//modo de color
 	colorMode(HSB);
 	
+	//variables tono, saturación y brillo
 	float hue, sat, bri;
-	hue = random(255);
-	sat = random(50,200);
-	bri = 200;
+	hue = random(255); //aleatorio
+	sat = random(50,200); //aleatorio, valores restringidos
+	bri = 200; //valor constante
 
 	fill(hue, sat, bri, 50);
 	stroke(255);
 
+	//coordenadas
 	float x = width/2;
 	float y = width/2;
+	//radio de la circunferencia circunscrita al polígono
 	int radio = 100;
 	int radio2 = 150;
 

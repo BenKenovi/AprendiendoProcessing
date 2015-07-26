@@ -2,6 +2,9 @@
 
 Aprendiendo Processing - Clases
 
+- Una clase crea instancias de un objeto y le aplica uno o varios métodos
+- Ver comentarios en el código
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

@@ -2,6 +2,8 @@
 
 Aprendiendo Processing - rotate();
 
+- Tres cuadrados girando alrededor de 0, 0
+
 José Vicente Araújo
 http://dunadigital.com 
 svcnt@dunadigital.com

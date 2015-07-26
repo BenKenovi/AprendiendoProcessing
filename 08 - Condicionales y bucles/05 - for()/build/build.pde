@@ -2,7 +2,7 @@
 
 Aprendiendo Processing - for()
 
--
+- Mismo resultado que en 07 / Transformaciones - 04 usando un bucle
 
 José Vicente Araújo
 http://dunadigital.com 

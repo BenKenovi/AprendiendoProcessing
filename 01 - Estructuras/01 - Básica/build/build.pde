@@ -1,6 +1,8 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - Estructura básica
+
+- 
 
 José Vicente Araújo
 http://dunadigital.com 

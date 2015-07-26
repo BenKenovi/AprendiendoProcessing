@@ -1,6 +1,6 @@
 /* 
 
-Aprendiendo Processing - 
+Aprendiendo Processing - copy()
 
 José Vicente Araújo
 http://dunadigital.com 

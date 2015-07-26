@@ -1,6 +1,9 @@
 /* 
 
-Título del sketch
+Aprendiendo Processing - translate()
+
+- Tres cuadrados creados en las coordenadas 0, 0 
+- Trasladados a diferentes posiciones
 
 José Vicente Araújo
 http://dunadigital.com 
@@ -19,6 +22,7 @@ void setup() {
 	background(#202020);
 	noFill();
 	stroke(255);
+	//definir rect a partir de su centro
 	rectMode(CENTER);
 }
 
