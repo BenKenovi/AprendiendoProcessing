@@ -19,7 +19,7 @@ import processing.video.*;
 //crear obj Movie
 Movie clip01;
 //número de puntos
-int cantidad = 500;
+int cantidad = 1000;
 //ARRAYS
 float[] x = new float[cantidad];
 float[] y = new float[cantidad];
@@ -28,8 +28,8 @@ color[] c = new color [cantidad];
 
 void setup() {
   size(640, 480);
-  stroke(50,50);
-  //noStroke();
+  //stroke(50,50);
+  noStroke();
   smooth();
   //cargar vídeo
   clip01 = new Movie(this, "../../../../data/clip.mp4");
@@ -57,7 +57,7 @@ void pinta(){
 	    i[n] = random(10);
 	    c[n] = clip01.get(int(x[n]), int(y[n]));
 
-	    fill(c[n]);
+	    fill(c[n], 25);
 	    ellipse(x[n], y[n], i[n], i[n]);
 	}
 }

@@ -25,7 +25,9 @@ void setup() {
 
 	//crea obj PFont
 	PFont miFuente;
-	//archivo fuente .vlw en carpera 'data'
+	//Archivo fuente .vlw en carpera 'data'.
+	//Desde la IDE, clic en Tools / Create font ...
+	//para crear e importar el archivo fuete
 	miFuente = loadFont("ACaslonPro-SemiboldItalic-48.vlw");
 	//definir fuente y tamaño
 	textFont(miFuente, 48);

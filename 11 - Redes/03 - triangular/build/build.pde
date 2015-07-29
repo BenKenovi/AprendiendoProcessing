@@ -1,5 +1,5 @@
-/* 
-
+ 
+/*
 Aprendiendo Processing - Red triangular
 
 José Vicente Araújo
@@ -17,7 +17,7 @@ float gap, alto, lado;
 
 //SETUP
 void setup() {
-	size(400, 400);
+	size(500, 500);
 	background(#202020);
 	noFill();
 	stroke(#202020);

@@ -33,17 +33,17 @@ void draw() {
 
 	//Primer grupo
 	//Primer cuadrado
-	pushMatrix();
-		rect(width/4, height/2, 100, 100);
-		//Segundo cuadrado
-		//80% menor
-		scale(0.8);
-		rect(width/4, height/2, 100, 100);
-		//Tercer cuadrado
-		//60% menor
-		scale(0.6);
-		rect(width/4, height/2, 100, 100);
-	popMatrix();
+	rect(width/4, height/2, 100, 100);
+	//Segundo cuadrado
+	//80% menor
+	scale(0.8);
+	rect(width/4, height/2, 100, 100);
+	//Tercer cuadrado
+	//60% menor
+	scale(0.6);
+	rect(width/4, height/2, 100, 100);
+
+	resetMatrix();
 
 	//Segundo Grupo
 	//Primer cuadrado
@@ -63,6 +63,4 @@ void draw() {
 		scale(0.6);
 		rect(0, 0, 100, 100);
 	popMatrix();
-
-
 }
