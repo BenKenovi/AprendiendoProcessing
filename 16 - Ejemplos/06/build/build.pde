@@ -54,7 +54,7 @@ void draw(){
 				PShape tile;
 				//Le asigna una imagen
 				tile = loadShape(
-						tiles[int(random (paleta.length+1))]
+						tiles[int(random (tiles.length))]
 					);
 				//Eliminainformación de estilo
 				tile.disableStyle();
