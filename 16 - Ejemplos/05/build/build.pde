@@ -22,7 +22,7 @@ Processing 2.2.1
 float n, vel; 
 float zoom = 0.0025;
 //lg: longitud de los segmentos
-int lg = 15;
+int lg = 25;
 //dist: distancia entre orígenes de los segmentos
 int dist = 5;
 
